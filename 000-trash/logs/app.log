@@ -1,0 +1,8 @@
+2026-08-20 10:15:32 INFO [AuthService] User admin logged in successfully.
+2026-08-20 10:17:11 ERROR [Database] Connection timeout to 192.168.1.50:5432
+2026-08-20 10:18:05 WARN [AuthService] Failed login attempt for user root.
+2026-08-20 10:18:07 WARN [AuthService] Failed login attempt for user root.
+2026-08-20 10:19:42 ERROR [PaymentGateway] API response 500 Internal Server Error
+2026-08-20 10:20:15 INFO [AuthService] User isaias logged in successfully.
+2026-08-20 10:21:00 ERROR [Database] Connection refused to 192.168.1.50:5432
+2026-08-20 10:22:10 INFO [PaymentGateway] Transaction 88291 completed.

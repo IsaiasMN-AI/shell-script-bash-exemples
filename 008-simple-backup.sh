@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# $0 --> recebe o nome do script: ./008-simple-backup.sh
+# $1 --> recebe o parâmetro que é passado ao executar o script
+#        ex: ./008-simple-backup.sh file_1
+#        o $1 recebe o valor file_1
+
 if [ -z "$1" ]; then
     echo "Please try like this: $0 <file_name>"
     exit 1
