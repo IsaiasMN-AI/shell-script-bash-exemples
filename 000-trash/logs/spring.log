@@ -1,0 +1,4 @@
+2026-08-21 08:15:22 [main] INFO  org.springframework.boot.SpringApplication - Starting application
+2026-08-21 08:15:24 [main] WARN  com.zaxxer.hikari.HikariConfig - maxLifetime is less than 30000ms
+2026-08-21 08:15:25 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection refused
+2026-08-21 08:15:26 [main] INFO  org.springframework.boot.SpringApplication - Started application in 4.2 seconds
