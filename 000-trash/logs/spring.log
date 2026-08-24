@@ -1,4 +1,6 @@
-2026-08-21 08:15:22 [main] INFO  org.springframework.boot.SpringApplication - Starting application
-2026-08-21 08:15:24 [main] WARN  com.zaxxer.hikari.HikariConfig - maxLifetime is less than 30000ms
-2026-08-21 08:15:25 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection refused
-2026-08-21 08:15:26 [main] INFO  org.springframework.boot.SpringApplication - Started application in 4.2 seconds
+2026-08-24 13:50:01.124  INFO 8542 --- [main] br.com.empresa.MeuProjetoApplication  : Starting MeuProjetoApplication using Java 17.0.2 on servidor-app with PID 8542
+2026-08-24 13:50:02.450  INFO 8542 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-08-24 13:50:04.102  INFO 8542 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-24 13:50:04.315  INFO 8542 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-24 13:50:04.320  INFO 8542 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://172.16.39.61:3306/meubanco'
+2026-08-24 13:50:06.885 ERROR 8542 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause

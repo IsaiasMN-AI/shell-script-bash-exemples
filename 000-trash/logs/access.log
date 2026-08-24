@@ -1,0 +1,5 @@
+192.168.1.45 - - [24/Aug/2026:10:15:32 -0400] "GET /index.html HTTP/1.1" 200 1043 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+192.168.1.45 - - [24/Aug/2026:10:15:35 -0400] "GET /assets/style.css HTTP/1.1" 200 3021 "http://meusite.local/index.html" "Mozilla/5.0 (Windows NT 10.0)"
+203.0.113.12 - - [24/Aug/2026:10:18:01 -0400] "POST /api/login HTTP/1.1" 401 53 "-" "PostmanRuntime/7.28.4"
+10.0.0.8 - - [24/Aug/2026:10:22:15 -0400] "GET /imagens/logo.png HTTP/1.1" 404 153 "-" "curl/7.68.0"
+192.168.1.45 - - [24/Aug/2026:10:25:50 -0400] "GET /dashboard HTTP/1.1" 200 4589 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
