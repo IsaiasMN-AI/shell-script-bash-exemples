@@ -63,16 +63,16 @@ else
 
             while [ $status_pid -eq 0 ]; do
 
+                if [[ $status_pid -eq 0 && $count -eq 5 ]]; then
+                    break
+                fi
+
                 kill -9 "$PID" > /dev/null 2>&1
                 echo "Stopping PID: $PID" 
                 sleep 2
 
                 kill -0 "$PID" > /dev/null 2>&1
                 status_pid=$?
-
-                if [[ $status_pid -eq 0 && $count -eq 5 ]]; then
-                    break
-                fi
 
                 if [ $status_pid -ne 0 ]; then
                     echo "$PID is dead."
