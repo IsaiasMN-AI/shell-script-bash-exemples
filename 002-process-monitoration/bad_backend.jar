@@ -1,0 +1,4 @@
+#!/bin/bash
+# O comando trap ignora o sinal 15 (SIGTERM)
+trap 'echo "Ignorando SIGTERM..."' SIGTERM
+while true; do sleep 1; done

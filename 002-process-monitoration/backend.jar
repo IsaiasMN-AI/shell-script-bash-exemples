@@ -1,0 +1,3 @@
+#!/bin/bash
+# Um processo simples que fica rodando e aceita ser encerrado
+while true; do sleep 1; done
