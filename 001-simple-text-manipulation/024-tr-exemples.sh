@@ -45,7 +45,7 @@ echo "$path" | tr '\\' '/'
 
 # ========================================================= #
 
-# Tira caracteres repetidos, inclusive espaços para transforma-los e um só.
+# Tira caracteres repetidos, inclusive espaços para transforma-los em um só.
 echo "$frase3" | tr -s ' '
 
 # ========================================================= #
