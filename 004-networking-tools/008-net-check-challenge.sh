@@ -10,9 +10,9 @@ else
         sleep 1
         nc -z -w 2 "$1" "$2" > /dev/null 2>&1
         if [ "$?" -eq 0 ]; then
-            echo "Porta em uso!"
+            echo "Porta Aberta / Acessível"
         else
-            echo "Porta livre!"
+            echo "Porta Fechada / Bloqueio em Firewall"
         fi
     else
         echo "IP inalcançável!!! (Ping falhou)."
